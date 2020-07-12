@@ -4,11 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>OMDB Search copy</title>
 </head>
 
 <body>
-
+    <div id="byTitle">
+        <h2>By Title</h2>
+        <form action="/search" method="GET">
+            <label for="">Title:
+                <input name="t" type="text">
+            </label>
+            <label for="">Year:
+                <input name="y" type="text">
+            </label>
+            <label for="">Plot:
+                <select name="plot" id="">
+                    <option value="short">Short</option>
+                    <option value="full">Full</option>
+                </select>
+            </label>
+            <label for="">Response:
+                <select name="r" id="">
+                    <option value="json">JSON</option>
+                    <option value="xml">XML</option>
+                </select>
+            </label>
+            <button type="submit">Search</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <div></div>
 </body>
 
 </html>

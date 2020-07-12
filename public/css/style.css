@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+#byTitle {
+    background-color: #fafafa;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+#byTitle h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+label {
+    margin-right: 20px;
+}
+
+input,
+select,
+button {
+    height: 40px;
+}
+
+button {
+    width: 80px;
+}
+
+button[type=submit] {
+    border: none;
+    color: white;
+    background-color: #008cba;
+}
+
+button[type=reset] {
+    border: none;
+}
